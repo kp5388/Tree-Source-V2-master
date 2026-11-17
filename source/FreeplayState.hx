@@ -23,7 +23,7 @@ class FreeplayState extends MusicBeatState
 
 	var selector:FlxText;
 	var curSelected:Int = 0;
-	var curDifficulty:Int = 1;
+	var curDifficulty:Int = 2;
 
 	var scoreText:FlxText;
 	var diffText:FlxText;
@@ -232,10 +232,13 @@ class FreeplayState extends MusicBeatState
 		{
 			case 0:
 				diffText.text = "EASY";
+				diffText.color = FlxColor.PINK;
 			case 1:
 				diffText.text = 'NORMAL';
+				diffText.color = FlxColor.GREEN;
 			case 2:
 				diffText.text = "HARD";
+				diffText.color = FlxColor.RED;
 		}
 	}
 

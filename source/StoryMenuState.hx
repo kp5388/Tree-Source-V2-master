@@ -35,7 +35,7 @@ class StoryMenuState extends MusicBeatState
 		['Quack', 'Geesy', 'Synergy'],
 		['Prom']
 	];
-	var curDifficulty:Int = 1;
+	var curDifficulty:Int = 2;
 
 	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true, true, true];
 

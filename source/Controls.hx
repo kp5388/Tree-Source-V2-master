@@ -507,10 +507,10 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.PAUSE, [P, ENTER, ESCAPE]);
 				inline bindKeys(Control.RESET, [R]);
 			case Duo(true):
-				inline bindKeys(Control.UP, [W, FlxKey.UP]);
+				inline bindKeys(Control.UP, [K, FlxKey.UP]);
 				inline bindKeys(Control.DOWN, [S, FlxKey.DOWN]);
 				inline bindKeys(Control.LEFT, [A, FlxKey.LEFT]);
-				inline bindKeys(Control.RIGHT, [D, FlxKey.RIGHT]);
+				inline bindKeys(Control.RIGHT, [L, FlxKey.RIGHT]);
 				inline bindKeys(Control.ACCEPT, [G, Z, SPACE, ENTER]);
 				inline bindKeys(Control.BACK, [BACKSPACE, ESCAPE]);
 				inline bindKeys(Control.RESET, [R]);
@@ -539,10 +539,10 @@ class Controls extends FlxActionSet
 				bindKeys(Control.PAUSE, [P, ENTER, ESCAPE]);
 				bindKeys(Control.RESET, [R]);
 			case Duo(true):
-				bindKeys(Control.UP, [W]);
+				bindKeys(Control.UP, [K]);
 				bindKeys(Control.DOWN, [S]);
 				bindKeys(Control.LEFT, [A]);
-				bindKeys(Control.RIGHT, [D]);
+				bindKeys(Control.RIGHT, [L]);
 				bindKeys(Control.ACCEPT, [G, Z]);
 				bindKeys(Control.BACK, [H, X]);
 				bindKeys(Control.PAUSE, [ONE]);

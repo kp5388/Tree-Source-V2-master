@@ -118,6 +118,11 @@ class AnimationDebug extends FlxState
 		if (FlxG.keys.justPressed.Q)
 			FlxG.camera.zoom -= 0.25;
 
+		if(FlxG.keys.justPressed.ESCAPE){ //Stolen from VS QT, thanks Hazard24! -kp08_
+			trace('Leaving to Main Menu');
+			FlxG.switchState(new MainMenuState());
+		}
+
 		if (FlxG.keys.pressed.I || FlxG.keys.pressed.J || FlxG.keys.pressed.K || FlxG.keys.pressed.L)
 		{
 			if (FlxG.keys.pressed.I)

@@ -853,6 +853,18 @@ class PlayState extends MusicBeatState
 			case 'gaymen':
 				dad.x -= 400;
 				dad.y -= 400;
+			case 'tree':
+				dad.x -= 400;
+				dad.y -= 400;
+				camPos.set(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y + 300);
+			case 'tree2':
+				dad.x -= 400;
+				dad.y -= 400;
+				camPos.set(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y + 300);
+			case 'tree3':
+				dad.x -= 400;
+				dad.y -= 400;
+				camPos.set(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y + 300);
 		}
 
 

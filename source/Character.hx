@@ -165,11 +165,18 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'tree down', 24);
 				animation.addByPrefix('singLEFT', 'tree left', 24);
 
-				addOffset('idle', 400, 400);
-				addOffset("singUP", 400, 455);
-				addOffset("singRIGHT", 327, 400);
-				addOffset("singLEFT", 508, 400);
-				addOffset("singDOWN", 400, 380);
+				addOffset('idle', 0, 0);
+				addOffset("singUP", 0, 60);
+				addOffset("singRIGHT", -80, 0);
+				addOffset("singLEFT", 120, 0);
+				addOffset("singDOWN", -10, -30);
+				
+				//addOffset('idle', 400, 400);
+				//addOffset("singUP", 400, 455);
+				//addOffset("singRIGHT", 327, 400);
+				//addOffset("singLEFT", 508, 400);
+				//addOffset("singDOWN", 400, 380);
+
 			case 'tree2':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/mad_treenew');
@@ -180,11 +187,17 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'mad tree down', 24);
 				animation.addByPrefix('singLEFT', 'mad tree left', 24);
 
-				addOffset('idle', 400, 400);
-				addOffset("singUP", 400, 455);
-				addOffset("singRIGHT", 327, 400);
-				addOffset("singLEFT", 508, 400);
-				addOffset("singDOWN", 400, 380);
+				addOffset('idle', 0, 0);
+				addOffset("singUP", 0, 60);
+				addOffset("singRIGHT", -80, 0);
+				addOffset("singLEFT", 120, 0);
+				addOffset("singDOWN", -10, -30);
+
+				//addOffset('idle', 400, 400);
+				//addOffset("singUP", 400, 455);
+				//addOffset("singRIGHT", 327, 400);
+				//addOffset("singLEFT", 508, 400);
+				//addOffset("singDOWN", 400, 380);
 
 			case 'tree2old':
 				// DAD ANIMATION LOADING CODE
@@ -213,11 +226,17 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'angry tree down', 24);
 				animation.addByPrefix('singLEFT', 'angry tree left', 24);
 
-				addOffset('idle', 400, 400);
-				addOffset("singUP", 400, 455);
-				addOffset("singRIGHT", 327, 400);
-				addOffset("singLEFT", 508, 400);
-				addOffset("singDOWN", 400, 380);
+				addOffset('idle', 0, 0);
+				addOffset("singUP", -10, 50);
+				addOffset("singRIGHT", 0, 0);
+				addOffset("singLEFT", 20, 0);
+				addOffset("singDOWN", 10, -25);
+
+				//addOffset('idle', 400, 400);
+				//addOffset("singUP", 400, 455);
+				//addOffset("singRIGHT", 327, 400);
+				//addOffset("singLEFT", 508, 400);
+				//addOffset("singDOWN", 400, 380);
 
 				playAnim('idle');
 			case 'tree3old':
@@ -551,10 +570,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'matt down note0', 24, false);
 
 				addOffset('idle');
-				addOffset("singUP", -47, 15);
-				addOffset("singRIGHT", -17, -20);
-				addOffset("singLEFT", 35, -34);
-				addOffset("singDOWN", -71, -21);
+				addOffset("singUP", -41, 14);
+				addOffset("singRIGHT", -9, -20);
+				addOffset("singLEFT", 40, -27);
+				addOffset("singDOWN", -63, -21);
 
 				playAnim('idle');
 
